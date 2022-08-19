@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_button.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_circle_chat_count.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_edittext.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_join_call.xml" value="0.1065" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_live.xml" value="0.1105" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_receive_message.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/bg_send_message.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_chat_read_black.xml" value="0.104" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_close_black_24dp.xml" value="0.1105" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_docs.xml" value="0.104" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_docs_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_download_offline.xml" value="0.2115" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_reply_black_24dp.xml" value="0.2115" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_seekbar.xml" value="0.104" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_send.xml" value="0.20625" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/ic_stop_circle.xml" value="0.1105" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/drawable/progress_animation2.xml" value="0.1" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_audio_conference.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_chat.xml" value="0.67" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_group_info.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_home_enduser.xml" value="0.16" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream_go_live.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream_go_live_background.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/attachment_bottom_sheet.xml" value="0.38058252427184464" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/custom_push_notification_layout.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/fragment_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/fragment_setting.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_audios.xml" value="0.3803088803088803" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_contact.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_documents.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_images.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_videos.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_audios.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_contact.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_documents.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_images.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_videos.xml" value="0.5" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_default_empty.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_group.xml" value="0.9" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_group_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/item_video_stream.xml" value="0.9" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/notification_collapsed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/notification_expanded.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/popup_choose_camera_gallery.xml" value="0.1578125" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/popup_edit_group_alert_level.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/popup_group_alert_level_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/popup_group_name_edit.xml" value="0.33" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/layout/popup_mute.xml" value="0.25" />
+        <entry key="..\:/Users/Firoz Saifi/AndroidStudioProjects/dubai_police_mobile_app/app/src/main/res/xml/file_paths.xml" value="0.10052083333333334" />
+        <entry key="..\:/Users/Muthu/.gradle/wrapper/dists/gradle-7.0.2-bin/caches/transforms-3/c04e3f50263c2103c6ab6576ca82dc0f/transformed/jetified-audiorecorderview-1.0.4/res/drawable/ic_blinking.xml" value="0.1585" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/drawable/bottom_sheet_rounded_corner.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/drawable/ic_contact.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/drawable/ic_document.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/drawable/ic_location.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/drawable/ic_photos_videos.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/layout/activity_chat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/layout/attachment_bottom_sheet.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/Dubai_Police_Mobile_App/app/src/main/res/layout/item_chat_left.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/bg_receive_message.xml" value="0.1145" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/bg_rounded_chat_box.xml" value="0.1145" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/bg_search.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/bg_send_message.xml" value="0.1725" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/bottom_sheet_rounded_corner.xml" value="0.146" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_audio_mp3.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_chat_read_black.xml" value="0.1725" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_chat_read_blue.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_delete_white.xml" value="0.159" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_docs_svgrepo_com.xml" value="0.131" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_document.xml" value="0.1455" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_download_offline.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_pause_circle.xml" value="0.1385" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_play.xml" value="0.1385" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_play_circle.xml" value="0.131" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_seekbar.xml" value="0.1725" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/selector_tab.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/shape_tab_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/shape_tab_un_selected.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_add_member.xml" value="0.13953488372093023" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_chat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_group_info.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_home_enduser.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_media_and_docs.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_notification.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/attachment_bottom_sheet.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_chat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_docs.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_media.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_my_profile.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_voice_note.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_add_participants.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_audio_right.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_audios.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_contact.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_documents.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_images.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_location.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_videos.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_audios.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_contact.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_documents.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_images.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_location.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_videos.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_group.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_group_participants.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_media_list.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_notification.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_video_stream.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/layout_bottom_navigation_old.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/layout_custom_dialog.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/layout_nav_drawer_header.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/layout_nav_drawer_item.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/popup_choose_camera_gallery.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/popup_group_alert_level_edit.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/app/src/main/res/xml/provider_paths.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Dubai Police/dubai_police_mobile_app/filepicker/src/main/res/layout/fragment_doc_picker.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/audio_file.xml" value="0.148" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_location.xml" value="0.135" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_play.xml" value="0.148" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_play_circle.xml" value="0.148" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/ic_video_outline.xml" value="0.17" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/drawable/selector_tab.xml" value="0.148" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_add_member.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_audio_conference.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_camera.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_camera_stream_list.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_capture.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_chat.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_fragment_sample.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_group_attachments.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_group_info.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_live_stream.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_live_stream_list.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_map_location.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_media_and_docs.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_passcode_setup.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_profile_picture.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_splash.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream_go_live.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream_list.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_docs.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_media.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_setting.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/fragment_voice_note.xml" value="0.1" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left_audios.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_chat_right_audios.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_default_empty.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_docs_list.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_group.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_media_list.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_notification.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_video_stream.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/item_voice_list.xml" value="0.22" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/layout_loading_dialog.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/app/src/main/res/layout/load_state_view.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/cameracapture/src/main/res/layout/activity_main.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Muthu/AndroidStudioProjects/Office Projects/Dubai Police/dubai_police_mobile_app/filepicker/src/main/res/layout/activity_file_picker.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/drawable/bg_button.xml" value="0.183" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/drawable/bg_button_grey.xml" value="0.183" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/drawable/ic_docs.xml" value="0.189" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/drawable/ic_docs_svgrepo_com.xml" value="0.189" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/drawable/ic_document.xml" value="0.189" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_camera_stream_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_group_attachments.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_group_info.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_group_stream.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_home_enduser.xml" value="0.128125" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_incoming_call_uiactivity.xml" value="0.152" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_live_stream_list.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_online_document_viewer.xml" value="0.1546875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/activity_video_stream.xml" value="0.13854166666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_camera_stream_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_docs.xml" value="0.25416666666666665" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_help.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_language.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_live_stream_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_notification_setting.xml" value="0.23125" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_setting.xml" value="0.293790546802595" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_chat_left.xml" value="0.23229166666666667" />
+=======
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_live_stream_list.xml" value="0.2046875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/fragment_notification_setting.xml" value="0.23125" />
+>>>>>>> 48ffad3e88f96806d01a3567ed335076be41f244
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_docs_list.xml" value="0.2" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_group.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_group_help_list.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_notification_sound_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_video_stream.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/item_voice_list.xml" value="0.264" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/popup_group_alert_level_edit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/popup_group_help.xml" value="0.1875" />
+        <entry key="..\:/Users/Naveen Kumar/dubai_police_mobile_app/app/src/main/res/layout/popup_notification_sound.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

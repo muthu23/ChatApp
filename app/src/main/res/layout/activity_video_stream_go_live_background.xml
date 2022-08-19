@@ -1,0 +1,158 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <!--        <variable-->
+        <!--            name="LoginViewModel"-->
+        <!--            type="com.dubaipolice.viewmodel.LoginViewModel" />-->
+
+        <variable
+            name="clickHandle"
+            type="com.dubaipolice.callback.HandleClick" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:keepScreenOn="true"
+        tools:context=".view.activity.VideoStreamGoLiveBackgroundActivity">
+
+        <com.pedro.rtplibrary.view.OpenGlView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:AAEnabled="false"
+            app:aspectRatioMode="fill"
+            app:isFlipHorizontal="false"
+            app:isFlipVertical="false"
+            app:keepAspectRatio="true"
+            app:numFilters="1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:src="@drawable/ic_go_live_back_white" />
+
+            <LinearLayout
+                android:id="@+id/layoutLive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvLive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_live"
+                    android:gravity="start"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:text="@string/live"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:translationZ="@dimen/_5sdp" />
+
+                <TextView
+                    android:id="@+id/chronometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="00:00:00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:translationZ="@dimen/_5sdp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgPipMode"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:src="@drawable/ic_go_live_pip_mode" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_30sdp">
+
+            <ImageView
+                android:id="@+id/imgSwitchCamra"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_alignParentStart="true"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:src="@drawable/ic_go_live_refresh" />
+
+            <ImageView
+                android:id="@+id/imgMicrophone"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_toEndOf="@id/imgSwitchCamra"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:src="@drawable/ic_go_live_microphone" />
+
+            <Button
+                android:id="@+id/btnStartLive"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_45sdp"
+                android:paddingHorizontal="@dimen/_25sdp"
+                android:background="@drawable/bg_button"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/sf_compact_display_regular"
+                android:text="@string/start_live"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnEndLive"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_45sdp"
+                android:paddingHorizontal="@dimen/_25sdp"
+                android:background="@drawable/bg_button"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/sf_compact_display_regular"
+                android:text="@string/end_live"
+                android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

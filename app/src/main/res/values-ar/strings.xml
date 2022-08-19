@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dubai Police</string>
+    <string name="no_internet">No Internet</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <string name="session_expired">Session Expired! Please login again!</string>
+    <string name="ok">OK</string>
+
+    <string name="error_500">500 Internal Server Error</string>
+    <string name="error_400">400 Bad Request</string>
+    <!--    <string name="error_401">401 Unauthorized</string>-->
+    <string name="error_401">401 Unauthorized</string>
+    <string name="error_403">403 Forbidden</string>
+    <string name="error_404">404 Not Found</string>
+    <string name="error_502">502 Bad Gateway</string>
+    <string name="error_401_relogin">relogin</string>
+
+    <string name="welcome">أهلا بك</string>
+    <string name="please_login_to_continue">الرجاء تسجيل الدخول للمتابعة</string>
+    <string name="email_id">عنوان الايميل</string>
+    <string name="get_otp">احصل على</string>
+    <string name="confirm_otp">قم بتأكيد OTP</string>
+    <string name="please_confirm_otp_to_continue">يرجى تأكيد OTP للمتابعة</string>
+    <string name="enter_otp">أدخل OTP</string>
+    <string name="submit">إرسال</string>
+
+    <string name="back">خلف</string>
+    <string name="set_your_pin">قم بتعيين رقم التعريف الشخصي الخاص بك</string>
+    <string name="confirm_pin">تأكيد PIN</string>
+    <string name="pin_must_contain_6_digits">يجب أن يتكون رقم التعريف الشخصي من 6 أرقام</string>
+    <string name="continue_txt">يكمل</string>
+    <string name="continue_txt_with_underline"><u>يكمل</u></string>
+
+    <string name="profile_picture">الصوره الشخصيه</string>
+    <string name="setup_profile_picture">إعداد صورة الملف الشخصي</string>
+    <string name="skip_to_continue"><u>تخطي للمتابعة</u></string>
+    <string name="skip">يتخطى</string>
+
+    <string name="join_call">الانضمام إلى المكالمة</string>
+
+
+    <string name="camera">الة تصوير</string>
+    <string name="gallery">صالة عرض</string>
+    <string name="choose_an_action">اختيار إجراء</string>
+
+    <string name="search">بحث</string>
+    <string name="language">لغة</string>
+    <string name="passcode">رمز عبور</string>
+    <string name="notifications">إشعارات</string>
+    <string name="my_profile">ملفي</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="version">الإصدار</string>
+    <string name="system_and_server">النظام وأمبير. الخادم</string>
+    <string name="content">المحتوى</string>
+
+    <string name="chats">الدردشات</string>
+    <string name="help">مساعدة</string>
+    <string name="settings">إعدادات</string>
+
+    <string name="dashboard">لوحة القيادة</string>
+
+    <string name="enter_pin">أدخل رقم التعريف الشخصي</string>
+    <string name="forgot_pin">هل نسيت رقم التعريف الشخصي؟</string>
+    <string name="cancel">يلغي</string>
+    <string name="forgot_pin_message">سوف يتم تسجيل خروجك. يرجى الاتصال بالمسؤول لإعادة تعيين رمز المرور.</string>
+
+    <string name="title_force_update">"تحديث جديد متاح"</string>
+    <string name="message_force_update">قم بتحديث تطبيقك إلى الإصدار الأحدث لفتح الميزات الجديدة</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="are_you_sure_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+
+    <string name="photo_upload_validation">الرجاء تحديد الصورة للتحميل والمتابعة</string>
+
+    <string name="Notifications">إشعارات</string>
+    <string name="mark_all_as_read">اشر عليها بانها قرات</string>
+
+    <string name="change"><u>يتغيرون</u></string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="save">يحفظ</string>
+
+    <string name="permission_denied_msg">تم رفض الإذن بشكل دائم. يرجى السماح بالأذونات يدويًا من الإعدادات. انقر فوق "موافق" للمتابعة.</string>
+
+    <string name="change_passcode_caps">تغيير رمز المرور</string>
+    <string name="old_passcode">رمز المرور القديم</string>
+    <string name="new_passcode">رمز مرور جديد</string>
+    <string name="confirm_passcode">قم بتأكيد رمز المرور</string>
+
+    <string name="congratulations">تهانينا!</string>
+    <string name="passcode_changed_msg">تم تغيير رمز المرور الخاص بك بنجاح</string>
+    <string name="go_to_home">اذهب إلى الصفحة الرئيسية</string>
+
+    <string name="select_language_caps">اختار اللغة</string>
+    <string name="group_notification_caps">إخطارات المجموعة</string>
+
+    <string name="arabic">عربي</string>
+    <string name="english">إنجليزي</string>
+
+    <string name="show_notifications">إظهار الإخطارات</string>
+    <string name="sound">يبدو</string>
+    <string name="default_txt">تقصير</string>
+
+    <string name="live">يعيش</string>
+
+    <string name="typing">يكتب ...</string>
+    <string name="is_typing">يكتب…</string>
+    <string name="message">رسالة</string>
+
+    <string name="group_info">معلومات المجموعة</string>
+    <string name="video_stream_list">قائمة دفق الفيديو</string>
+    <string name="camera_stream_list">قائمة دفق الكاميرا</string>
+    <string name="live_stream_list">قائمة البث المباشر</string>
+    <string name="media_and_docs">الوسائط والمستندات</string>
+    <string name="member_locations">مواقع الأعضاء</string>
+    <string name="mute">صامت</string>
+    <string name="unmute">إعادة الصوت</string>
+    <string name="muted">كتم الصوت</string>
+    <string name="unmuted">غير صامت</string>
+    <string name="add_participants">أضف مشاركين</string>
+    <string name="participants_caps">المشاركين</string>
+
+    <string name="map_location">خريطة الموقع</string>
+
+    <string name="start_live">ابدأ البث المباشر</string>
+    <string name="end_live">إنهاء مباشر</string>
+
+    <!--Input Validations -->
+    <string name="please_enter_email">الرجاء إدخال البريد الإلكتروني</string>
+    <string name="please_enter_valid_email">الرجاء إدخال بريد إلكتروني صحيح</string>
+    <string name="please_enter_otp">الرجاء إدخال OTP</string>
+    <string name="please_enter_6_digits_pin">الرجاء إدخال رمز PIN المكون من 6 أرقام</string>
+    <string name="pin_does_not_match">رقم التعريف الشخصي غير متطابق</string>
+    <string name="please_enter_old_passcode">الرجاء إدخال رمز المرور القديم</string>
+    <string name="please_enter_new_passcode">الرجاء إدخال رمز مرور جديد</string>
+    <string name="passcode_not_matched">رمز المرور الجديد وتأكيد رمز المرور غير متطابقين</string>
+    <string name="please_select_group">Please Select Group</string>
+    <string name="send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+
+    <!-- Notification channel id -->
+    <string name="default_notification_channel_id">dubaipoliceid</string>
+    <string name="default_notification_channel_name">dubaipolicename</string>
+
+
+    <!-- bottom sheet -->
+    <string name="document">وثيقة</string>
+    <string name="location">موقع</string>
+    <string name="contact">اتصال</string>
+    <string name="no_address">عنوان غير صالح</string>
+    <string name="photos_amp_video_library"><![CDATA[Photos & Video Library]]></string>
+    <string name="open">يفتح</string>
+    <string name="view">رأي</string>
+    <string name="add">يضيف</string>
+    <string name="answer">إجابه</string>
+    <string name="reject">رفض</string>
+
+
+    <string name="choose_options">اختر خيارات</string>
+    <string name="select_photo">اختر الصور</string>
+    <string name="select_video">حدد الفيديو</string>
+
+    <string name="mute_group">مجموعة كتم الصوت</string>
+
+    <string name="photo">صورة</string>
+    <string name="video">فيديو</string>
+    <string name="audio">صوتي</string>
+
+    <string name="video_limit_msg">لا يمكنك تحميل فيديو يزيد حجمه عن 50 ميغا بايت</string>
+    <string name="media">وسائل الإعلام</string>
+    <string name="docs">المستندات</string>
+    <string name="voice_note">ملاحظة صوتية</string>
+
+    <string name="live_streams">يعيش تيارات</string>
+    <string name="ip_camera_streams">IP Camera Streams</string>
+
+    <string name="group_name">Gأسم المجموعة</string>
+
+    <string name="view_group_image">عرض صورة المجموعة</string>
+    <string name="change_group_image">تغيير صورة المجموعة</string>
+
+    <string name="group_alert_level">مستوى تنبيه المجموعة</string>
+    <string name="notification_sound">صوت الإشعار</string>
+    <string name="group_help">Group Help</string>
+
+    <string name="alert_level">مستوى التنبيه</string>
+    <string name="alert_level1">رمادي</string>
+    <string name="alert_level2">الأصفر</string>
+    <string name="alert_level3">أحمر</string>
+    <string name="you_cannot_remove_by_yourself">لا يمكنك إزالة بنفسك</string>
+    <string name="removed_successfully">تمت الإزالة بنجاح</string>
+    <string name="no_group_photo">غير قادر على تحميل صورة المجموعة</string>
+    <string name="you">أنت</string>
+    <string name="no_participants_found">لاتوجد بيانات</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="percentage">%.</string>
+    <string name="previous_resume">تم استئناف التنزيل الذي تم إيقافه مؤقتًا.</string>
+    <string name="download_paused">تم إيقاف التنزيل مؤقتًا</string>
+    <string name="group_is_in_read_only_mode">هذه المجموعة في وضع القراءة فقط</string>
+</resources>

@@ -1,0 +1,181 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <!--        <variable-->
+        <!--            name="LoginViewModel"-->
+        <!--            type="com.dubaipolice.viewmodel.LoginViewModel" />-->
+
+        <variable
+            name="clickHandle"
+            type="com.dubaipolice.callback.HandleClick" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.fragment.LanguageFragment">
+
+                <RelativeLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:background="@drawable/bg_gradient">
+
+                    <LinearLayout
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:paddingVertical="@dimen/_7sdp"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginStart="-5dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_back_white"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:text="@string/settings" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_compact_display_regular"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:textSize="@dimen/_16sdp"
+                        android:text="@string/language" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_compact_display_regular"
+                    android:text="@string/select_language_caps"
+                    android:textSize="@dimen/_11sdp"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:textColor="@color/subtitle_color" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutEnglish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:paddingVertical="@dimen/_8sdp"
+                        android:paddingHorizontal="@dimen/_15sdp"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:id="@+id/tvTitleEnglish"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/title_color"
+                            android:textSize="@dimen/_13sdp"
+                            android:text="@string/english"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/subtitle_color"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_below="@+id/tvTitleEnglish"
+                            android:text="@string/english"/>
+
+                        <ImageView
+                            android:id="@+id/imgEnglish"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_language_unselected"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginHorizontal="@dimen/_8sdp"
+                        android:background="@color/settings_line_color"/>
+
+                    <RelativeLayout
+                        android:id="@+id/layoutArabic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:paddingVertical="@dimen/_8sdp"
+                        android:paddingHorizontal="@dimen/_15sdp"
+                        android:background="?attr/selectableItemBackground">
+
+                        <TextView
+                            android:id="@+id/tvTitleArabic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/title_color"
+                            android:textSize="@dimen/_13sdp"
+                            android:text="@string/arabic"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/subtitle_color"
+                            android:textSize="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:layout_below="@+id/tvTitleArabic"
+                            android:text="عربي"/>
+
+                        <ImageView
+                            android:id="@+id/imgArabic"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_language_unselected"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</layout>

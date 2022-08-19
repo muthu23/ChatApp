@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <!--      <variable
+                  name="ConfirmingDriverViewModel"
+                  type="com.karggo.customer.viewmodel.ConfirmingDriverViewModel" />-->
+
+        <variable
+            name="clickHandle"
+            type="com.dubaipolice.callback.HandleClick" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.activity.HomeEndUserActivity">
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frame_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_80sdp"/>
+
+                <com.google.android.material.bottomappbar.BottomAppBar
+                    android:id="@+id/bottomAppBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    app:backgroundTint="@color/white"
+                    android:theme="@style/AppTheme.NoActionBarForBottomAppBar"
+                    app:fabCradleRoundedCornerRadius="@dimen/_16sdp"
+                    app:contentInsetLeft="0dp"
+                    app:contentInsetStart="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            style="?android:attr/borderlessButtonStyle"
+                            android:id="@+id/tvChat"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingVertical="@dimen/_10sdp"
+                            android:drawableTop="@drawable/ic_chats_unselected"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:text="@string/chats"
+                            android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                            android:textAllCaps="false"
+                            android:textColor="@color/bottom_nav_txt_unselected"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/sf_compact_display_regular">
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/tvHelp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:text="@string/help"
+                            android:textAllCaps="false"
+                            android:textColor="@color/bottom_nav_txt_unselected"
+                            android:textSize="@dimen/_11sdp"
+                            android:fontFamily="@font/sf_compact_display_regular">
+                        </TextView>
+
+                        <TextView
+                            style="?android:attr/borderlessButtonStyle"
+                            android:id="@+id/tvSetting"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingVertical="@dimen/_10sdp"
+                            android:drawableTop="@drawable/ic_settings_unselected"
+                            android:gravity="center"
+                            android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                            android:orientation="vertical"
+                            android:text="@string/settings"
+                            android:textAllCaps="false"
+                            android:textColor="@color/bottom_nav_txt_unselected"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/sf_compact_display_regular">
+                        </TextView>
+
+                    </LinearLayout>
+
+                </com.google.android.material.bottomappbar.BottomAppBar>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btnHelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_help_unselected"
+                    app:backgroundTint="@color/white"
+                    android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                    app:maxImageSize="@dimen/_26sdp"
+                    android:elevation="@dimen/_10sdp"
+                    app:layout_anchor="@id/bottomAppBar" />
+
+                <!--<fragment
+                    android:id="@+id/navHostFragment"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:defaultNavHost="true"
+                    app:navGraph="@navigation/nav_graph"
+                    android:layout_marginBottom="0dp"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navigationView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="@drawable/bg_gradient"
+                android:fitsSystemWindows="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include android:id="@+id/layoutNavHeader" layout="@layout/layout_nav_drawer_header"
+                        bind:clickHandleExternal="@{clickHandle}"/>
+                    <include android:id="@+id/layoutNavItem" layout="@layout/layout_nav_drawer_item"
+                        bind:clickHandleExternal="@{clickHandle}"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.navigation.NavigationView>
+
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

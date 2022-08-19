@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "254203612880",
+    "project_id": "dubaipolice-5fbda",
+    "storage_bucket": "dubaipolice-5fbda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254203612880:android:adce75ae25396d73a258d5",
+        "android_client_info": {
+          "package_name": "com.dubaipolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254203612880-prk9kg47pto26p1qjlquu67r7aqo5o99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dubaipolice",
+            "certificate_hash": "c99245d40409939585165dcbde455fe57f7e5ca7"
+          }
+        },
+        {
+          "client_id": "254203612880-q7misd5pc0b6q7elqv7c7epc6euettl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAsOQYX-OtzVDT_wdTuewMMr3yvNeo3BE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254203612880-q7misd5pc0b6q7elqv7c7epc6euettl5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "254203612880-uloai6v8rnrglqm438vmcg1tljmrplqa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dubaipolice.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

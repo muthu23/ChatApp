@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:textAlignment="textStart"
+        android:id="@+id/message"
+        tools:text="Please wait..." />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:indeterminate="false"
+        android:progress="0"
+        android:layout_weight="1" />
+
+
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="end"
+        android:fontFamily="@font/sf_compact_display_regular"
+        android:text="@string/cancel"
+        android:textSize="@dimen/_14sdp"
+        android:background="@drawable/bg_button"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+</LinearLayout>

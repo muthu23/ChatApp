@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:autoLink="web"
+        android:fontFamily="@font/sf_compact_display_regular"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textColorLink="@android:color/white"
+        android:textSize="@dimen/_12sdp"
+        android:text="Default layout. Default Layout \n Default Layout" />
+
+</RelativeLayout>

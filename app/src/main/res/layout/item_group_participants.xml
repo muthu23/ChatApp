@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/layoutMain"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:orientation="horizontal"
+            android:background="?attr/selectableItemBackground">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileImage"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_profile" />
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adnan Khan"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@id/profileImage"
+                android:fontFamily="@font/sf_compact_display_regular"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/_13sdp"/>
+
+            <ImageView
+                android:id="@+id/imgOnlineIndicator"
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_11sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_toEndOf="@id/tvName"
+                android:src="@drawable/ic_group_info_online_indicator"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvRoleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/sf_compact_display_regular"
+                android:text="Super User"
+                android:visibility="gone"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_13sdp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginStart="@dimen/_49sdp"
+            android:background="@color/settings_line_color"/>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <!--        <variable-->
+        <!--            name="LoginViewModel"-->
+        <!--            type="com.dubaipolice.viewmodel.LoginViewModel" />-->
+
+        <variable
+            name="clickHandle"
+            type="com.dubaipolice.callback.HandleClick" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.fragment.PasscodeChangeFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="@dimen/_5sdp"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:background="@drawable/bg_gradient">
+
+                    <LinearLayout
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:paddingVertical="@dimen/_7sdp"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginStart="-5dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_back_white"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/sf_compact_display_regular"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp"
+                            android:text="@string/settings" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:fontFamily="@font/sf_compact_display_regular"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:textSize="@dimen/_16sdp"
+                        android:text="@string/passcode" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_compact_display_regular"
+                    android:text="@string/change_passcode_caps"
+                    android:textSize="@dimen/_11sdp"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:textColor="@color/subtitle_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/_15sdp"
+                    android:paddingBottom="@dimen/_40sdp"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:id="@+id/etOldPasscode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/old_passcode"
+                        android:maxLength="6"
+                        android:inputType="numberPassword"
+                        android:textColorHint="@color/textFieldHint"
+                        android:paddingVertical="@dimen/_15sdp"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:importantForAutofill="no"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@drawable/bg_edittext"
+                        android:textColor="@color/edittext_color"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <EditText
+                        android:id="@+id/etNewPasscode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/new_passcode"
+                        android:maxLength="6"
+                        android:inputType="numberPassword"
+                        android:textColorHint="@color/textFieldHint"
+                        android:paddingVertical="@dimen/_15sdp"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:importantForAutofill="no"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/bg_edittext"
+                        android:textColor="@color/edittext_color"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <EditText
+                        android:id="@+id/etConfirmPasscode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/confirm_passcode"
+                        android:maxLength="6"
+                        android:inputType="numberPassword"
+                        android:textColorHint="@color/textFieldHint"
+                        android:paddingVertical="@dimen/_15sdp"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:importantForAutofill="no"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/bg_edittext"
+                        android:textColor="@color/edittext_color"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <Button
+                        android:id="@+id/btnSaveChanges"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        android:background="@drawable/bg_button"
+                        android:fontFamily="@font/sf_compact_display_regular"
+                        android:text="@string/save_changes"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_45sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:background="@drawable/bg_button_outline"
+                        android:fontFamily="@font/sf_compact_display_regular"
+                        android:text="@string/cancel"
+                        android:onClick="@{(view) -> clickHandle.clickHandle(view)}"
+                        android:textSize="@dimen/_14sdp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

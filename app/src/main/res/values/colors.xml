@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#23D493</color>
+    <color name="colorPrimaryDark">#07724A</color>
+    <color name="colorAccent">#23D493</color>-->
+  <!--  <color name="colorPrimary">#1ec386</color>
+    <color name="colorPrimaryDark">#08784f</color>
+    <color name="colorAccent">#1ec386</color>-->
+      <color name="colorPrimary">#1BBB80</color>
+    <color name="colorPrimaryDark">#0A7E53</color>
+    <color name="colorAccent">#1BBB80</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="btn_bg_color">#262A4A</color>
+    <color name="btn_txt_color">#FFE500</color>
+    <color name="textFieldHint">#BDBDBD</color>
+    <color name="edittext_color">#000000</color>
+    <color name="edittext_bg_color">#F8FCFF</color>
+    <color name="edittext_stroke_color">#CCCCCC</color>
+    <!--<color name="edittext_bg_color">#F8FCFF</color>-->
+ <!--   <color name="edittext_bg_color">#F1FFFA</color>-->
+    <color name="txt_or_color">#4A4A4A</color>
+    <color name="blue_color">#2B3CCD</color>
+    <color name="access_anywhere_txt_color">#2E2E2E</color>
+    <color name="title_color">#181D2B</color>
+    <color name="subtitle_color">#7B8188</color>
+    <color name="otp_outline_color">#D8D8D8</color>
+    <color name="search_box_bg_color">#F2F2F2</color>
+
+    <color name="bottom_nav_txt_selected">#008755</color>
+    <color name="bottom_nav_txt_unselected">#646464</color>
+
+    <color name="green_133E23">#133E23</color>
+    <color name="green_00763A">#00763A</color>
+
+    <color name="colorRipple">#7B8188</color>
+
+    <color name="notifications_sound_value_txt_color">#3C3C4399</color>
+
+    <color name="group_chat_title_color">#181D2B</color>
+    <color name="group_chat_subtitle_color">#8E8E93</color>
+    <color name="group_chat_list_outside_color">#E5E5E5</color>
+
+    <color name="settings_line_color">#3C3C434A</color>
+    <color name="settings_line_color_light">#66F7F9FB</color>
+
+    <color name="switch_bg_color">#34C759</color>
+    <color name="switch_thumb_color">#FFFFFF</color>
+    <color name="switch_disabled">#27170432</color>
+    <color name="switch_thumb_color_disabled">#FFFFFF</color>
+
+    <color name="bg_chat_box_grey">#F2F2F2</color>
+    <color name="bg_chat_box_green">#008755</color>
+    <!--<color name="chat_time_color_receive">#BEBEBE</color>-->
+    <color name="chat_time_color_receive">@color/black</color>
+    <color name="chat_time_color_send">@color/white</color>
+
+    <color name="colorE">#c4c4c4</color>
+    <color name="replyBackground">#DADADA</color>
+    <color name="textColor">#1A1616</color>
+
+</resources>
